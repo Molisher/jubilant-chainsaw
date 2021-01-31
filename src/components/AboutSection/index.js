@@ -35,7 +35,7 @@ const AboutSection = () => {
           have professionals with amazing skills.
         </motion.p>
         <motion.button variants={fade}>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/molisher/contact">Contact Us</Link>
         </motion.button>
       </AboutDescription>
       <AboutImage>
