@@ -41,7 +41,7 @@ const OurWork = () => {
       <Movie>
         <motion.h2 variants={fade}>The Athlete</motion.h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/molisher/work/the-athlete">
+        <Link to="/work/the-athlete">
           <Hide>
             <motion.img
               variants={photoAnimation}
@@ -54,7 +54,7 @@ const OurWork = () => {
       <Movie ref={element} variants={fade} animate={controls} initial="hidden">
         <motion.h2 variants={fade}>The Racer</motion.h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/molisher/work/the-racer">
+        <Link to="/work/the-racer">
           <Hide>
             <motion.img
               variants={photoAnimation}
@@ -72,7 +72,7 @@ const OurWork = () => {
       >
         <motion.h2 variants={fade}>Good Times</motion.h2>
         <motion.div variants={lineAnimation} className="line"></motion.div>
-        <Link to="/molisher/work/good-times">
+        <Link to="/work/good-times">
           <Hide>
             <motion.img
               variants={photoAnimation}
